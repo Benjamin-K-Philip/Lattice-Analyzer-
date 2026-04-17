@@ -43,3 +43,21 @@ The code serves as a practical application of discrete mathematics and programma
 ---
 
 
+## Features <br>
+  - Parse and validate mathematical relations in standard (a,b) format.
+
+  - Identify and output relation properties (Reflexive, Irreflexive, Symmetric, Antisymmetric, Asymmetric, Transitive).
+
+  - Automatically generate divisibility relations from user-provided integer sets.
+
+  - Determine lattice bounds including Minimal/Maximal elements, Least/Greatest elements, and Greatest Lower Bound (GLB) / Least Upper Bound (LUB).
+
+  - Classify mathematical sets accurately (e.g., Lattice, Join Semilattice, Meet Semilattice, Not a Lattice).
+
+  - Render visually hierarchical Hasse diagrams using Matplotlib and NetworkX.
+
+  - Parse standard algebraic expressions with operator precedence into binary trees and visualize them as directed graphs.
+
+---
+
+
