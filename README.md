@@ -70,3 +70,14 @@ While contained in a single Python script, the logical structure mimics a modula
   - **ExpressionTree:** This maps to the class ExpressionTree: block, which contains the recursive parsing logic (_parse_expr, _parse_term) to break down the math strings.
 
   - **Visualization Engine:** This refers to the specific methods inside those classes (draw_hasse_diagram_graph and draw_tree_graph) that utilize the networkx (nx) and matplotlib.pyplot (plt) libraries to calculate node coordinates and draw the charts.
+
+
+## Output 
+<img width="1260" height="629" alt="image" src="https://github.com/user-attachments/assets/ed475e22-54fa-4ca8-a043-42fa190df922" />
+
+<img width="1054" height="328" alt="image" src="https://github.com/user-attachments/assets/ab0a5264-a04f-4546-badd-1c1fbb0eca01" />
+
+<img width="1050" height="299" alt="image" src="https://github.com/user-attachments/assets/ca8d446d-72b0-4282-b456-7020c1e0eb5a" />
+
+
+
