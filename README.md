@@ -71,6 +71,7 @@ While contained in a single Python script, the logical structure mimics a modula
 
   - **Visualization Engine:** This refers to the specific methods inside those classes (draw_hasse_diagram_graph and draw_tree_graph) that utilize the networkx (nx) and matplotlib.pyplot (plt) libraries to calculate node coordinates and draw the charts.
 
+---
 
 ## Output 
 <img width="1260" height="629" alt="image" src="https://github.com/user-attachments/assets/ed475e22-54fa-4ca8-a043-42fa190df922" />
@@ -79,5 +80,8 @@ While contained in a single Python script, the logical structure mimics a modula
 
 <img width="1050" height="299" alt="image" src="https://github.com/user-attachments/assets/ca8d446d-72b0-4282-b456-7020c1e0eb5a" />
 
+<img width="1049" height="368" alt="image" src="https://github.com/user-attachments/assets/28dbda5c-ea95-44e0-b15d-c191b4883156" />
+
+---
 
 
