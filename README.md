@@ -61,7 +61,7 @@ The code serves as a practical application of discrete mathematics and programma
 ---
 
 ## Project Sructure  <br>
-While contained in a single Python script, the logical structure mimics a modular project:
+While contained in a single Python code, the logical structure mimics a modular project:
 
   - **Command Line Interface:** This maps directly to the main() function, which uses the while True loop and input() statements to create an interactive menu for the user.
 
@@ -83,5 +83,12 @@ While contained in a single Python script, the logical structure mimics a modula
 <img width="1049" height="368" alt="image" src="https://github.com/user-attachments/assets/28dbda5c-ea95-44e0-b15d-c191b4883156" />
 
 ---
+
+## Diagram generated from the code 
+
+**Hasse Diagram generated based on the elements 2 3 6 4 8 24 48**
+ <img width="1111" height="589" alt="image" src="https://github.com/user-attachments/assets/c0c5e52e-989d-4f31-bb29-971a1cda555d" />
+<br><br>
+
 
 
