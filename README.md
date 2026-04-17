@@ -43,7 +43,7 @@ The code serves as a practical application of discrete mathematics and programma
 ---
 
 
-## Features <br>
+## Features 
   - Parse and validate mathematical relations in standard (a,b) format.
 
   - Identify and output relation properties (Reflexive, Irreflexive, Symmetric, Antisymmetric, Asymmetric, Transitive).
@@ -60,4 +60,5 @@ The code serves as a practical application of discrete mathematics and programma
 
 ---
 
+## Project Sructure 
 
