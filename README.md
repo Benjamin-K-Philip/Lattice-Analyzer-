@@ -60,5 +60,13 @@ The code serves as a practical application of discrete mathematics and programma
 
 ---
 
-## Project Sructure 
+## Project Sructure  <br>
+While contained in a single Python script, the logical structure mimics a modular project:
 
+  - **Command Line Interface:** This maps directly to the main() function, which uses the while True loop and input() statements to create an interactive menu for the user.
+
+  - **LatticeAnalyzer:** This maps to the class LatticeAnalyzer: block, which houses all the logic for relations (is_reflexive, is_transitive, etc.) and bounds (get_lub, get_glb).
+
+  - **ExpressionTree:** This maps to the class ExpressionTree: block, which contains the recursive parsing logic (_parse_expr, _parse_term) to break down the math strings.
+
+  - **Visualization Engine:** This refers to the specific methods inside those classes (draw_hasse_diagram_graph and draw_tree_graph) that utilize the networkx (nx) and matplotlib.pyplot (plt) libraries to calculate node coordinates and draw the charts.
