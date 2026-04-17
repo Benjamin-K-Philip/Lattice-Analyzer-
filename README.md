@@ -1,5 +1,48 @@
-# Lattice-Analyzer-
-Lattice Analyzer 
+# Lattice Analyzer
 
- <img width="1369" height="721" alt="image" src="https://github.com/user-attachments/assets/54e1c7cd-274d-4024-b06e-b16790dd002a" />
-Above screenshot is for Expression Tree.
+# Description
+A Python-based console application that analyzes mathematical relations, evaluates lattice structures, and visualizes algebraic expression trees. It leverages Object-Oriented Programming (OOP) concepts, graph theory algorithms, and data visualization libraries like networkx and matplotlib to provide a practical, interactive mathematical tool.
+
+---
+
+## How the Code Works
+
+The Lattice & Expression Tree Analyzer is designed using modular Object-Oriented Programming (OOP) principles in Python. The code is organized into specific classes to handle core logic, mathematical modeling, and graph visualization.
+
+➤ **Core Architecture and Modules** <br>
+
+The application is divided into logical components that manage different mathematical operations:
+
+
+
+Main CLI Module: The main() function serves as the interactive console loop, handling user input, validating choices, and instantiating the appropriate objects based on the user's selected operation.
+
+LatticeAnalyzer Class: Handles the parsing of mathematical relations and elements. It maintains the internal state of the relation and elements as sets, evaluating discrete math properties and building graphs.
+
+ExpressionTree Class: Acts as a recursive descent parser. It takes string-based algebraic expressions and converts them into a hierarchical binary tree data structure, managing node counters and graph mappings.
+
+➤ Core Logic and Execution Flow
+
+The main logic depends on the user's chosen path from the CLI:
+
+
+
+Relation Properties: The system parses pairs like (1,2) into a set of tuples. It then runs boolean checks iterating through the sets to determine properties like reflexivity, symmetry, transitivity, and antisymmetry.
+
+Lattice Analysis & Hasse Diagrams: When a user inputs a set of integers, the system automatically builds a divisibility relation (where a divides b). It calculates the transitive closure to find covering relations, determines upper/lower bounds (LUB, GLB), and classifies the set as a Lattice or Semilattice. For the Hasse Diagram, it uses a Breadth-First Search (BFS) approach to assign hierarchical levels to elements, placing minimal elements at the bottom and greatest at the top before rendering the graph.
+
+Expression Parsing: The expression tree evaluates a string like (1+2)*3 by respecting the order of operations (parentheses, multiplication/division, addition/subtraction). It recursively builds left and right child nodes for operators and uses custom coordinate mapping (_assign_positions) to ensure the generated graph visually represents a proper top-down binary tree.
+
+➤ Implementation of OOP and Algorithmic Concepts
+
+The code serves as a practical application of discrete mathematics and programmatic concepts:
+
+
+
+Encapsulation: The internal sets (self.relation, self.elements, self.tree) are bound to their respective class instances. All modifications and evaluations are done through specific class methods.
+
+Recursion: Heavily utilized in ExpressionTree for both parsing the mathematical string (_parse_expr, _parse_term) and for traversing the tree to build the NetworkX graph.
+
+Graph Theory: Applies directed acyclic graphs (DAGs) to map mathematical hierarchies, computing transitive reductions (cover relations) to draw simplified, accurate Hasse diagrams.
+
+Exception Handling: Uses try-except blocks and ValueError raises to catch malformed inputs (e.g., missing parentheses, non-integer elements, invalid relation syntax) to prevent application crashes and prompt the user gracefully.
