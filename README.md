@@ -86,9 +86,9 @@ While contained in a single Python code, the logical structure mimics a modular 
 
 ## Diagram generated from the code 
 
-**Hasse Diagram generated based on the elements 2 3 6 4 8 24 48**
+### Hasse Diagram generated based on the elements 2 3 6 4 8 24 48
 <img width="1114" height="587" alt="image" src="https://github.com/user-attachments/assets/b7619a90-cebd-4934-8077-bab0414d8eaa" />
 <br><br>
 
-**Expression Tree generared based on the expression (3+10) * (4-2)**
+### Expression Tree generared based on the expression (3+10) * (4-2)
  <img width="1111" height="589" alt="image" src="https://github.com/user-attachments/assets/c0c5e52e-989d-4f31-bb29-971a1cda555d" />
