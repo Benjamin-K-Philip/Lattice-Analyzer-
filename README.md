@@ -1,6 +1,6 @@
 # Lattice Analyzer
 
-# Description
+## Description
 A Python-based console application that analyzes mathematical relations, evaluates lattice structures, and visualizes algebraic expression trees. It leverages Object-Oriented Programming (OOP) concepts, graph theory algorithms, and data visualization libraries like networkx and matplotlib to provide a practical, interactive mathematical tool.
 
 ---
